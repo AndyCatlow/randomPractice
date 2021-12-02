@@ -18,7 +18,7 @@ body {
   color: var(--text-color);
 }
 
-body.dark {
+body.snow {
   --accent-color: #ffffff;
   --background-color: #333;
   --text-color: white;
@@ -92,7 +92,7 @@ body.dark {
   opacity: 1;
 }
 
-.dark .sun {
+.snow .sun {
   opacity: 0;
 }
 
@@ -102,6 +102,6 @@ body.dark {
   transform: rotate(180deg);
 }
 
-.dark .moon {
+.snow .moon {
   opacity: 1;
 }
